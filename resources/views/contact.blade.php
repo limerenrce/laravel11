@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Halaman About</title>
-</head>
-
-<body>
-
+<x-layout>
+    <x-slot:title>{{ $title }}</x-slot>
     <a href="/">Home</a>
     <a href="/about">About</a>
     <a href="/blog">Blog</a>
@@ -24,10 +14,7 @@
             <a href="https://x.com/">X</a>
         </li>
         <li>
-            <a href="https://youtube.com/">X</a>
+            <a href="https://youtube.com/">YouTube</a>
         </li>
     </ul>
-
-</body>
-
-</html>
+</x-layout>
